@@ -2,7 +2,7 @@
 server {
   listen 80;
   listen [::]:80;
-  server_name d000001-test-student.a231.jkomp.my;
+  {{server_name}}
   {{root}}
   
   {{nginx_access_log}}
